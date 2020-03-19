@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/hpcloud/tail/util"
-	"gopkg.in/tomb.v1"
+	"github.com/general252/tail/util"
+	"github.com/go-tomb/tomb"
 )
 
 // PollingFileWatcher polls the file for changes.

@@ -8,10 +8,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hpcloud/tail/util"
+	"github.com/general252/tail/util"
 
 	"github.com/fsnotify/fsnotify"
-	"gopkg.in/tomb.v1"
+	"github.com/go-tomb/tomb"
 )
 
 // InotifyFileWatcher uses inotify to monitor file changes.
